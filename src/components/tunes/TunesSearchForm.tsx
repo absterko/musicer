@@ -1,6 +1,5 @@
-import React, { useState, ChangeEvent, FormEvent, useRef } from "react";
+import React, { ChangeEvent, FormEvent, useRef } from "react";
 import "./TunesSearchForm.scss";
-import { log } from "console";
 import { debounce } from "lodash";
 
 type Props = {
@@ -27,6 +26,7 @@ const TunesSearchForm = (props: Props) => {
   return (
     <form onSubmit={handleSubmit}>
       <input
+        placeholder="I want to listen..."
         type="text"
         ref={searchInput}
         onChange={handleInput}

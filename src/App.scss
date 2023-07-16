@@ -1,36 +1,92 @@
 .App {
-	font: {
-		size: 1em;
-		family: 'Nunito Sans', helvetica, arial, sans-serif;
-		weight: 600;
-	}
+  font: {
+    size: 1em;
+    family: "Bebas Neue", helvetica, arial, sans-serif;
+    weight: 600;
+  }
 
-	text-align: center;
-	margin: 0em auto 2em;
-	max-width: 48em;
+  text-align: center;
+  margin: 0em auto 2em;
+  max-width: 48em;
+  color: white;
 
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 header {
-	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-	margin-bottom: 1em;
+  margin-bottom: 1em;
+  font-size: 1em;
 }
 
 .content {
-	font-size: 1.15em;
-	line-height: 1.5em;
-	// padding: 1.5em 1.75em;
-	padding: 1.5em 1.75em 0;
+  font-size: 1.15em;
+  line-height: 1.5em;
+  // padding: 1.5em 1.75em;
+  padding: 1.5em 1.75em 0;
+  font-weight: 100;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 3px solid;
+  border-radius: 2.5em;
+  padding: 20px;
 }
 
 article {
-	text-align: left;
+  text-align: left;
+}
+
+body {
+  z-index: 0;
+  width: 100%;
+  height: 100vh;
+  background: url(../src/img/makeba.png) center center no-repeat;
+  background-color: rgba(0, 0, 0, 1);
+  animation-delay: 3s;
+  animation: mymove 40s;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+@keyframes mymove {
+  0% {
+    background-image: url(../src/img/cash.webp);
+  }
+  25% {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  26% {
+    background-image: url(../src/img/thewho.webp);
+  }
+  50% {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  51% {
+    background-image: url(../src/img/dylan.webp);
+  }
+  75% {
+    background-color: rgba(0, 0, 0, 1);
+  }
+  76% {
+    background-image: url(../src/img/santana.webp);
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 1);
+  }
 }
 
 @media screen and (max-width: 520px) {
-	.App {
-		font-size: 0.85em;
-	}
+  .App {
+    font-size: 0.85em;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
 }

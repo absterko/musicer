@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import logo from "./logo.svg";
+import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Navigation from "./components/Navigation";
 import Tunes from "./views/Tunes";
@@ -8,8 +7,6 @@ import Home from "./views/Home";
 import "./App.scss";
 
 function App() {
-  const [count, setCount] = useState(1);
-
   return (
     <div className="App">
       <header>
