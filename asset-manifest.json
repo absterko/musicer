@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/musicer/static/css/main.05a886f5.css",
+    "main.css": "/musicer/static/css/main.848cb5f9.css",
     "main.js": "/musicer/static/js/main.284b1ce3.js",
     "static/media/makeba.png": "/musicer/static/media/makeba.c19d1166f3f210e25b31.png",
     "static/media/santana.webp": "/musicer/static/media/santana.dd1f810af5c5d516ed8b.webp",
@@ -9,11 +9,11 @@
     "static/media/dylan.webp": "/musicer/static/media/dylan.9e36040d14c1d547f0a8.webp",
     "index.html": "/musicer/index.html",
     "static/media/search.svg": "/musicer/static/media/search.7fdcc1a925b6866b36cc.svg",
-    "main.05a886f5.css.map": "/musicer/static/css/main.05a886f5.css.map",
+    "main.848cb5f9.css.map": "/musicer/static/css/main.848cb5f9.css.map",
     "main.284b1ce3.js.map": "/musicer/static/js/main.284b1ce3.js.map"
   },
   "entrypoints": [
-    "static/css/main.05a886f5.css",
+    "static/css/main.848cb5f9.css",
     "static/js/main.284b1ce3.js"
   ]
 }
