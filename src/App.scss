@@ -22,7 +22,6 @@ header {
 .content {
   font-size: 1.15em;
   line-height: 1.5em;
-  // padding: 1.5em 1.75em;
   padding: 1.5em 1.75em 0;
   font-weight: 100;
 }
@@ -48,10 +47,8 @@ body {
   height: 100vh;
   background: url(../src/img/makeba.png) center center no-repeat;
   background-color: rgba(0, 0, 0, 1);
-  animation-delay: 3s;
+  animation-delay: 5s;
   animation: mymove 40s;
-  animation-timing-function: ease-in-out;
-  -webkit-animation-timing-function: ease-in-out;
 }
 
 @keyframes mymove {
@@ -59,13 +56,13 @@ body {
     background-image: url(../src/img/cash.webp);
   }
   25% {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 1);
   }
   26% {
     background-image: url(../src/img/thewho.webp);
   }
   50% {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 1);
   }
   51% {
     background-image: url(../src/img/dylan.webp);

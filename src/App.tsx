@@ -4,6 +4,7 @@ import Navigation from "./components/Navigation";
 import Tunes from "./views/Tunes";
 import About from "./views/About";
 import Home from "./views/Home";
+import Welcome from "./views/Welcome";
 import "./App.scss";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       </header>
       <main className="content">
         <Routes>
+          <Route path="" Component={Welcome} />
           <Route path="/home" Component={Home} />
           <Route path="/tunes" Component={Tunes} />
           <Route path="/about" Component={About} />

@@ -1,0 +1,16 @@
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
