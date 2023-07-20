@@ -15,7 +15,7 @@ function App() {
       </header>
       <main className="content">
         <Routes>
-          <Route path="" Component={Welcome} />
+          <Route path="/musicer" Component={Welcome} />
           <Route path="/home" Component={Home} />
           <Route path="/tunes" Component={Tunes} />
           <Route path="/about" Component={About} />
